@@ -1,0 +1,63 @@
+body {  /*entire webpage display */
+  margin: 0;
+  background-color: #AAAAAA;
+  text-align: center;
+  display: inline-block; 
+
+}
+
+
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 72px;
+  color: #black;
+}
+
+
+h2 {font-family: 'Times New Roman';
+   font-size: 30px;
+   color: #black;
+    text-align: center;
+}
+
+h3, h4, h5 {font-family: 'Times New Roman';
+    font-size: 20px;
+    color: #black; 
+    height: 100px
+    text-align: center;
+} /* I grouped my last 3 headers since they all include the same properties. */  
+
+main p, footer,  {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  color: #000000;
+  margin: 10px;
+  padding: 6px 12px;
+  text-align: center;
+  line-height: 1;
+} /* all main p are colored black*/
+
+ol {
+  padding: 10px 500px;
+  text-align: left
+}
+ol li {
+ list style-position: inside; 
+}
+ ul{
+   padding: 12px 400px;
+   text-align: left
+ }
+ul li{
+  list style-position: isnide;
+}
+/*css styling links*/
+a:link, a:active, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
